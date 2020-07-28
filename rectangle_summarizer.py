@@ -6,6 +6,7 @@ with open("DATA475_lab_rectangles_data.csv", newline="") as f:
     next(reader)
 
     # List Comprehension
+    #make a change
     areas = [float(line[1]) * float(line[2]) for line in reader]
 
 column_names = {
